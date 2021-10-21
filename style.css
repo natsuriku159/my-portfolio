@@ -1,0 +1,117 @@
+.back-image {
+    background-image: url(https://us.123rf.com/450wm/darakchi/darakchi1706/darakchi170600019/80753264-%E9%BB%92%E3%81%A8%E7%99%BD%E6%9B%87%E3%82%8A%E7%A9%BA%E3%81%AE%E5%86%99%E7%9C%9F%E3%80%81%E9%AB%98%E8%A7%A3%E5%83%8F%E5%BA%A6%E3%81%AE%E8%87%AA%E7%84%B6%E3%81%AA%E8%83%8C%E6%99%AF.jpg?ver=6);
+    background-position: center bottom;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    text-align: right;
+    padding: 250px 50px 0 0;
+    text-decoration: underline;
+    -webkit-text-stroke: 1px black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.name {
+    width: 400px;
+    margin: 0 200px 100px 120px;
+}
+
+.name h2 {
+    font-size: 40px;
+    border-bottom: solid;
+}
+
+.name p {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.university {
+    width: 400px;
+}
+
+.university h2 {
+    font-size: 40px;
+    border-bottom: solid;
+}
+
+.university a {
+    display: block;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.home {
+    width: 400px;
+    margin: 0 200px 100px 120px;
+}
+
+.home h2 {
+    font-size: 40px;
+    border-bottom: solid;
+}
+
+.home p {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sport {
+    width: 400px;
+}
+
+.sport h2 {
+    font-size: 40px;
+    border-bottom: solid;
+}
+
+.sport p {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hobby {
+    width: 400px;
+    margin: 0 200px 100px 120px;
+}
+
+.hobby h2 {
+    font-size: 40px;
+    border-bottom: solid;
+}
+
+.hobby p {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+.hobby ul {
+    display: none;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+}
+
+.button {
+    background-color: rgb(206, 233, 233);
+}
