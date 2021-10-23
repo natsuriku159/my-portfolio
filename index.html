@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
     <title>My Portfolio</title>
   </head>
   <body>
+    <header>
+      <div class="instagram">
+        <a href="https://www.instagram.com/natsuriku159"><i class="fab fa-instagram fa-3x"></i></a>
+      </div>
+    </header>
+
     <div class="back-image">
       <h1>MY PORTFOLIO</h1>
     </div>
@@ -48,13 +55,24 @@
           <li>Mrs.GreenApple</li>
         </ul>
       </div>
+    
+
+      <div class="good">
+        <h2>Kill Time</h2>
+        <p class="sentence">Please push,<br /> if you think <br /> this portfolio is good!</p>
+        <div class="good-button">
+          <p id="count">0</p>
+          <div class="button-container">
+            <button id="add-button" class="button"><i class="fas fa-heart fa-lg"></i></button>
+            <button><i class="far fa-heart fa-lg"></i></button>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div>
-      <p id="count">0</p>
-      <button id="add-button" class="button">共感した！</button>
-    </div>
-
+    <footer>
+      <p>&copy; 2021 Riku Natsume</p>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>
