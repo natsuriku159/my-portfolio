@@ -70,5 +70,4 @@ addButton.onclick = function() {
     localStorage.number = JSON.stringify(number)
 
     count.textContent = number
-
 }
